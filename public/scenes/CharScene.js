@@ -6,25 +6,25 @@ class CharScene extends Phaser.Scene {
     preload() {
         
         //load player select button
-        this.load.image("player-select", "public/assets/images/player-select.png");
+        this.load.image("player-select", "assets/images/player-select.png");
 
         //load gender select button
-        this.load.image("male-button", "public/assets/images/male-button.png");
-        this.load.image("female-button", "public/assets/images/female-button.png");
+        this.load.image("male-button", "assets/images/male-button.png");
+        this.load.image("female-button", "assets/images/female-button.png");
 
         //load male characters
-        this.load.image("adventurer-male", "public/assets/images/adventurer-male.png");
-        this.load.image("archer2-male", "public/assets/images/archer2-male.png");
-        this.load.image("fighter-male", "public/assets/images/fighter-male.png");
-        this.load.image("mage-male", "public/assets/images/mage-male.png");
+        this.load.image("adventurer-male", "assets/images/adventurer-male.png");
+        this.load.image("archer2-male", "assets/images/archer2-male.png");
+        this.load.image("fighter-male", "assets/images/fighter-male.png");
+        this.load.image("mage-male", "assets/images/mage-male.png");
 
         //load female characters
-        this.load.image("adventurer-female", "public/assets/images/adventurer-female.png");
-        this.load.image("archer2-female", "public/assets/images/archer2-female.png");
-        this.load.image("fighter2-female", "public/assets/images/fighter2-female.png");
-        this.load.image("mage-female", "public/assets/images/mage-female.png");
+        this.load.image("adventurer-female", "assets/images/adventurer-female.png");
+        this.load.image("archer2-female", "assets/images/archer2-female.png");
+        this.load.image("fighter2-female", "assets/images/fighter2-female.png");
+        this.load.image("mage-female", "assets/images/mage-female.png");
 
-        this.load.image("character-selected", "public/assets/images/character-selected.png");
+        this.load.image("character-selected", "assets/images/character-selected.png");
 
     }
 
