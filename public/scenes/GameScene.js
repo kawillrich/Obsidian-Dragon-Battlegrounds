@@ -25,9 +25,20 @@ class GameScene extends Phaser.Scene {
       }
   
       create() {
+        //add background
         this.add.image(0,0,'bg')
+
         //this.add.sprite(x, y, referenceImage, frameNumber)
-        this.add.sprite(200, 200, 'heroAtlas', "sprite2")
+        this.hero = this.physics.add.sprite(200, 200, 'heroAtlas', "sprite1")
+
+        //add cursor keys
+        this.cursors = this.input.keyboard.createCursorKeys();
+
+
+
+        //add animations
+
+
       }
   
       update() {
